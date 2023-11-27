@@ -1,7 +1,7 @@
 # Projet de Data Science - Nom du Projet
 
 ## Description
-Un bref résumé de votre projet et de son objectif.
+TODO
 
 ## Structure du Projet
 
@@ -15,8 +15,8 @@ Un bref résumé de votre projet et de son objectif.
 
 ## Installation
 
-1. Clonez ce référentiel sur votre machine locale.
-2. Assurez-vous d'avoir Python installé (de préférence Python 3).
+1. Clone le projet
+2. TODO Python installé (de préférence Python 3).
 3. Créez un environnement virtuel (facultatif mais recommandé).
 4. Installez les dépendances avec `pip install -r requirements.txt`.
 
