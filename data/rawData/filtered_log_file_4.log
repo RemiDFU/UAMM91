@@ -1,0 +1,142 @@
+[2023-06-26 09:34:22,645: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672/onboarding: [Errno 111] Connexion refusée.
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:28,482: ERROR/ForkPoolWorker-1] export_erp_status[c467c59c-904f-44bb-a02c-12a132402c7d]: [Exception] An error occured for task c467c59c-904f-44bb-a02c-12a132402c7d
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:28,483: ERROR/ForkPoolWorker-1] Task export_erp_status[c467c59c-904f-44bb-a02c-12a132402c7d] raised unexpected: ConnectionError('Error -2 connecting to redis:6379. Nom ou service inconnu.',)
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:29,193: ERROR/ForkPoolWorker-9] export_erp_status[9ccc8a24-fbbc-4e56-ba21-267e4c6ef788]: [Exception] An error occured for task 9ccc8a24-fbbc-4e56-ba21-267e4c6ef788
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:29,193: ERROR/ForkPoolWorker-9] Task export_erp_status[9ccc8a24-fbbc-4e56-ba21-267e4c6ef788] raised unexpected: ConnectionError('Error -2 connecting to redis:6379. Nom ou service inconnu.',)
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:31,390: ERROR/ForkPoolWorker-4] export_erp_status[66183052-b7b3-444a-a3c8-5a63ffbd12d9]: [Exception] An error occured for task 66183052-b7b3-444a-a3c8-5a63ffbd12d9
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:31,391: ERROR/ForkPoolWorker-4] Task export_erp_status[66183052-b7b3-444a-a3c8-5a63ffbd12d9] raised unexpected: ConnectionError('Error -2 connecting to redis:6379. Nom ou service inconnu.',)
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+[2023-06-26 09:34:41,456: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672/onboarding: [Errno 111] Connexion refusée.
+[2023-06-26 14:06:01,176: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:04,222: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] Error processing a batch of customers
+[2023-06-26 14:06:07,577: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:08,695: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:09,859: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:11,180: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:12,207: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:12,722: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:13,462: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:16,365: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:17,973: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:18,524: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:19,099: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:19,474: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] Error processing a batch of customers
+[2023-06-26 14:06:19,984: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:20,691: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:21,799: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:22,419: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:22,865: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:25,248: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:25,977: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:29,077: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] [Import customers] some or all customer patch did not succeed
+[2023-06-26 14:06:31,199: ERROR/ForkPoolWorker-3] import_customers[3faf5be1-d33e-484e-80f2-13c4fe4ed43f]: [Exception] Cannot parse file
+[2023-06-26 14:26:41,238: ERROR/ForkPoolWorker-1] export_ois_os_web_line_refunded[3f24ed76-87ee-4805-81fd-ab14fb1c7d85]: [Exception] An error occured for task 3f24ed76-87ee-4805-81fd-ab14fb1c7d85
+[2023-06-26 14:26:41,238: ERROR/ForkPoolWorker-1] Task export_ois_os_web_line_refunded[3f24ed76-87ee-4805-81fd-ab14fb1c7d85] raised unexpected: UndefinedError("'dict object' has no attribute 'amount'",)
+[2023-06-26 14:29:19,083: ERROR/ForkPoolWorker-7] export_ois_os_web_line_refunded[9f465caf-1d00-409e-a10f-843a2363630f]: [Exception] An error occured for task 9f465caf-1d00-409e-a10f-843a2363630f
+[2023-06-26 14:29:19,083: ERROR/ForkPoolWorker-7] Task export_ois_os_web_line_refunded[9f465caf-1d00-409e-a10f-843a2363630f] raised unexpected: UndefinedError("'dict object' has no attribute 'amount'",)
+[2023-06-26 14:38:40,114: ERROR/ForkPoolWorker-9] export_ois_os_web_line_refunded[8d62d017-b9c9-4957-9de6-30575f7d2795]: [Exception] An error occured for task 8d62d017-b9c9-4957-9de6-30575f7d2795
+[2023-06-26 14:38:40,115: ERROR/ForkPoolWorker-9] Task export_ois_os_web_line_refunded[8d62d017-b9c9-4957-9de6-30575f7d2795] raised unexpected: UndefinedError("'dict object' has no attribute 'amount'",)
+[2023-06-26 17:56:36,678: ERROR/ForkPoolWorker-7] eresa_notification_closing_handler[86120eef-5108-4dc9-9dfd-5d4ff986ec99]: [Exception] An error occured for task 86120eef-5108-4dc9-9dfd-5d4ff986ec99
+[2023-06-26 17:56:36,678: ERROR/ForkPoolWorker-7] Task eresa_notification_closing_handler[86120eef-5108-4dc9-9dfd-5d4ff986ec99] raised unexpected: InternalError("Cannot patch line items ['6495abf13c2a8b2245dbec32']",)
+[2023-06-26 18:02:47,078: ERROR/ForkPoolWorker-4] eresa_notification_closing_handler[36bc258a-b0a6-48ea-9386-e9d09325a31e]: [Exception] An error occured for task 36bc258a-b0a6-48ea-9386-e9d09325a31e
+[2023-06-26 18:02:47,078: ERROR/ForkPoolWorker-4] Task eresa_notification_closing_handler[36bc258a-b0a6-48ea-9386-e9d09325a31e] raised unexpected: InternalError("Cannot patch line items ['6495abf13c2a8b2245dbec32']",)
+[2023-06-26 18:02:48,960: ERROR/ForkPoolWorker-8] eresa_notification_closing_handler[6ff0909c-a730-4c61-a237-3dbee7e8e599]: [Exception] An error occured for task 6ff0909c-a730-4c61-a237-3dbee7e8e599
+[2023-06-26 18:02:48,961: ERROR/ForkPoolWorker-8] Task eresa_notification_closing_handler[6ff0909c-a730-4c61-a237-3dbee7e8e599] raised unexpected: InternalError("Cannot patch line items ['6495abf13c2a8b2245dbec32']",)
+[2023-06-26 18:02:49,047: ERROR/ForkPoolWorker-8] eresa_notification_closing_handler[daa3fcee-0925-4f1a-a4d8-9042804af194]: [Exception] An error occured for task daa3fcee-0925-4f1a-a4d8-9042804af194
+[2023-06-26 18:02:49,047: ERROR/ForkPoolWorker-8] Task eresa_notification_closing_handler[daa3fcee-0925-4f1a-a4d8-9042804af194] raised unexpected: InternalError("Cannot patch line items ['6495abf13c2a8b2245dbec32']",)
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,216: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,217: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,218: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,218: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,218: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,218: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,218: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,219: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,220: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,220: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,220: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,220: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,220: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,221: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,222: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,223: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,224: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,225: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,226: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,226: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,227: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,227: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,227: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,227: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,228: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,228: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,228: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,228: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,228: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,229: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,230: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,231: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,231: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,231: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,231: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'
+[2023-06-26 21:00:00,231: ERROR/ForkPoolWorker-1] export_reporting_removed_orders[fce06d2f-1da5-45cc-ac6b-fdb33db33a52]: [Exception] [Export Orders Report] Error while generating file : 'address'

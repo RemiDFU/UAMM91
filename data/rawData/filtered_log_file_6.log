@@ -1,0 +1,149 @@
+[2023-06-26 06:28:00,152: ERROR/ForkPoolWorker-16] notification[163ddaff-5327-423b-a5e7-b763ed6fe1c6]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230087_0001
+[2023-06-26 06:29:00,196: ERROR/ForkPoolWorker-16] notification[026fa435-a8e4-495d-a3a3-09414aadf62b]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230090_0001
+[2023-06-26 11:53:01,095: ERROR/ForkPoolWorker-11] fix_generate_parcel_state_file[d856dfae-b122-47a3-b51c-5d6c52bbb13e]: [Exception] An error occured for task d856dfae-b122-47a3-b51c-5d6c52bbb13e
+[2023-06-26 11:53:01,096: ERROR/ForkPoolWorker-11] Task fix_generate_parcel_state_file[d856dfae-b122-47a3-b51c-5d6c52bbb13e] raised unexpected: KeyError('parcel_id',)
+[2023-06-26 14:55:09,227: INFO/ForkPoolWorker-11] import_order_update[29ce74b4-1c87-42b7-9bd5-905c2c7d3065]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 14:55:09,227: INFO/ForkPoolWorker-11] import_order_update[29ce74b4-1c87-42b7-9bd5-905c2c7d3065]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647919101001_1_20230626_144418.csv is not a valid file path
+[2023-06-26 14:55:09,242: ERROR/ForkPoolWorker-11] import_order_update[29ce74b4-1c87-42b7-9bd5-905c2c7d3065]: [Exception] An error occured for task 29ce74b4-1c87-42b7-9bd5-905c2c7d3065
+[2023-06-26 14:55:09,242: ERROR/ForkPoolWorker-11] Task import_order_update[29ce74b4-1c87-42b7-9bd5-905c2c7d3065] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647919101001_1_20230626_144418.csv is not a valid file path')
+[2023-06-26 14:56:01,861: INFO/ForkPoolWorker-16] import_order_update[0cf55bc4-8e7f-4298-922a-0e700f4d4a3a]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 14:56:01,861: INFO/ForkPoolWorker-16] import_order_update[0cf55bc4-8e7f-4298-922a-0e700f4d4a3a]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8648342101001_1_20230626_144409.csv is not a valid file path
+[2023-06-26 14:56:01,862: ERROR/ForkPoolWorker-16] import_order_update[0cf55bc4-8e7f-4298-922a-0e700f4d4a3a]: [Exception] An error occured for task 0cf55bc4-8e7f-4298-922a-0e700f4d4a3a
+[2023-06-26 14:56:01,862: ERROR/ForkPoolWorker-16] Task import_order_update[0cf55bc4-8e7f-4298-922a-0e700f4d4a3a] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8648342101001_1_20230626_144409.csv is not a valid file path')
+[2023-06-26 14:57:01,843: INFO/ForkPoolWorker-16] import_order_update[07a431c8-a47a-476c-9471-b64eeadbf6d3]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 14:57:01,843: INFO/ForkPoolWorker-16] import_order_update[07a431c8-a47a-476c-9471-b64eeadbf6d3]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8649744101001_1_20230626_144416.csv is not a valid file path
+[2023-06-26 14:57:01,845: ERROR/ForkPoolWorker-16] import_order_update[07a431c8-a47a-476c-9471-b64eeadbf6d3]: [Exception] An error occured for task 07a431c8-a47a-476c-9471-b64eeadbf6d3
+[2023-06-26 14:57:01,845: ERROR/ForkPoolWorker-16] Task import_order_update[07a431c8-a47a-476c-9471-b64eeadbf6d3] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8649744101001_1_20230626_144416.csv is not a valid file path')
+[2023-06-26 14:58:01,646: ERROR/ForkPoolWorker-12] import_order_update[20938f82-4e70-425c-9ca8-200000009ffa]: Error uploading file
+[2023-06-26 14:58:01,646: INFO/ForkPoolWorker-12] import_order_update[20938f82-4e70-425c-9ca8-200000009ffa]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 14:58:01,647: INFO/ForkPoolWorker-12] import_order_update[20938f82-4e70-425c-9ca8-200000009ffa]: ERROR size mismatch in put!  0 != 317
+[2023-06-26 14:58:01,654: ERROR/ForkPoolWorker-12] import_order_update[20938f82-4e70-425c-9ca8-200000009ffa]: [Exception] An error occured for task 20938f82-4e70-425c-9ca8-200000009ffa
+[2023-06-26 14:58:01,655: ERROR/ForkPoolWorker-12] Task import_order_update[20938f82-4e70-425c-9ca8-200000009ffa] raised unexpected: LockError("Cannot release a lock that's no longer owned",)
+[2023-06-26 15:40:59,712: ERROR/ForkPoolWorker-13] notification[bcff6046-a62f-48ac-8f09-50d2adc43476]: [Exception] Error executing task with params {"site_id": "c560", "params": [{"object_id": "900000384_1", "object_type": "order", "order_id": "900000384_1"}], "message": "collectable_reminder"}
+[2023-06-26 16:00:01,403: INFO/ForkPoolWorker-13] import_order_update[96b49c8a-5da0-407f-8007-035e26a23cf5]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 16:00:01,403: INFO/ForkPoolWorker-13] import_order_update[96b49c8a-5da0-407f-8007-035e26a23cf5]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8654240105001_1_20230626_154919.csv is not a valid file path
+[2023-06-26 16:00:01,405: ERROR/ForkPoolWorker-13] import_order_update[96b49c8a-5da0-407f-8007-035e26a23cf5]: [Exception] An error occured for task 96b49c8a-5da0-407f-8007-035e26a23cf5
+[2023-06-26 16:00:01,405: ERROR/ForkPoolWorker-13] Task import_order_update[96b49c8a-5da0-407f-8007-035e26a23cf5] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8654240105001_1_20230626_154919.csv is not a valid file path')
+[2023-06-26 16:00:49,600: ERROR/ForkPoolWorker-11] import_order_update[1195a901-a6c4-4bae-88a3-f23a37291e41]: [Exception] An error occured for task 1195a901-a6c4-4bae-88a3-f23a37291e41
+[2023-06-26 16:00:49,600: ERROR/ForkPoolWorker-11] Task import_order_update[1195a901-a6c4-4bae-88a3-f23a37291e41] raised unexpected: LockError("Cannot release a lock that's no longer owned",)
+[2023-06-26 16:23:46,828: ERROR/ForkPoolWorker-11] fix_cash_order_immediate_withdraw[63fef6e7-c4a2-4bc9-a746-f3f8626f3d0e]: [Exception] An error occured for task 63fef6e7-c4a2-4bc9-a746-f3f8626f3d0e
+[2023-06-26 16:23:46,828: ERROR/ForkPoolWorker-11] Task fix_cash_order_immediate_withdraw[63fef6e7-c4a2-4bc9-a746-f3f8626f3d0e] raised unexpected: KeyError('order.id',)
+[2023-06-26 17:25:17,421: INFO/ForkPoolWorker-13] import_order_update[04d65081-0687-4536-a37a-d560f1363551]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:25:17,422: INFO/ForkPoolWorker-13] import_order_update[04d65081-0687-4536-a37a-d560f1363551]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8646008101001_1_20230626_170034.csv is not a valid file path
+[2023-06-26 17:25:17,423: ERROR/ForkPoolWorker-13] import_order_update[04d65081-0687-4536-a37a-d560f1363551]: [Exception] An error occured for task 04d65081-0687-4536-a37a-d560f1363551
+[2023-06-26 17:25:17,423: ERROR/ForkPoolWorker-13] Task import_order_update[04d65081-0687-4536-a37a-d560f1363551] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8646008101001_1_20230626_170034.csv is not a valid file path')
+[2023-06-26 17:26:14,617: INFO/ForkPoolWorker-15] import_order_update[c75366e8-5d5d-40dd-8d26-28962f5fb726]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:26:14,618: INFO/ForkPoolWorker-15] import_order_update[c75366e8-5d5d-40dd-8d26-28962f5fb726]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647122101001_1_20230626_170005.csv is not a valid file path
+[2023-06-26 17:26:14,667: ERROR/ForkPoolWorker-15] import_order_update[c75366e8-5d5d-40dd-8d26-28962f5fb726]: [Exception] An error occured for task c75366e8-5d5d-40dd-8d26-28962f5fb726
+[2023-06-26 17:26:14,667: ERROR/ForkPoolWorker-15] Task import_order_update[c75366e8-5d5d-40dd-8d26-28962f5fb726] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647122101001_1_20230626_170005.csv is not a valid file path')
+[2023-06-26 17:27:06,405: INFO/ForkPoolWorker-13] import_order_update[8ec6e866-fbc1-4dc7-8120-b6a6b3e48319]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:27:06,405: INFO/ForkPoolWorker-13] import_order_update[8ec6e866-fbc1-4dc7-8120-b6a6b3e48319]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647398101001_1_20230626_170003.csv is not a valid file path
+[2023-06-26 17:27:06,406: ERROR/ForkPoolWorker-13] import_order_update[8ec6e866-fbc1-4dc7-8120-b6a6b3e48319]: [Exception] An error occured for task 8ec6e866-fbc1-4dc7-8120-b6a6b3e48319
+[2023-06-26 17:27:06,406: ERROR/ForkPoolWorker-13] Task import_order_update[8ec6e866-fbc1-4dc7-8120-b6a6b3e48319] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647398101001_1_20230626_170003.csv is not a valid file path')
+[2023-06-26 17:28:06,867: INFO/ForkPoolWorker-17] import_order_update[cf233747-265f-4e5b-be29-df1b33f1f3e0]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:28:06,867: INFO/ForkPoolWorker-17] import_order_update[cf233747-265f-4e5b-be29-df1b33f1f3e0]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647607101001_1_20230626_170011.csv is not a valid file path
+[2023-06-26 17:28:06,868: ERROR/ForkPoolWorker-17] import_order_update[cf233747-265f-4e5b-be29-df1b33f1f3e0]: [Exception] An error occured for task cf233747-265f-4e5b-be29-df1b33f1f3e0
+[2023-06-26 17:28:06,868: ERROR/ForkPoolWorker-17] Task import_order_update[cf233747-265f-4e5b-be29-df1b33f1f3e0] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647607101001_1_20230626_170011.csv is not a valid file path')
+[2023-06-26 17:29:11,009: INFO/ForkPoolWorker-16] import_order_update[8c40c7b0-353b-42ef-a5ec-a967e2dae260]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:29:11,009: INFO/ForkPoolWorker-16] import_order_update[8c40c7b0-353b-42ef-a5ec-a967e2dae260]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647774101001_1_20230626_170012.csv is not a valid file path
+[2023-06-26 17:29:11,010: ERROR/ForkPoolWorker-16] import_order_update[8c40c7b0-353b-42ef-a5ec-a967e2dae260]: [Exception] An error occured for task 8c40c7b0-353b-42ef-a5ec-a967e2dae260
+[2023-06-26 17:29:11,011: ERROR/ForkPoolWorker-16] Task import_order_update[8c40c7b0-353b-42ef-a5ec-a967e2dae260] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647774101001_1_20230626_170012.csv is not a valid file path')
+[2023-06-26 17:30:05,845: INFO/ForkPoolWorker-2] import_order_update[796b6478-0dde-4a1c-9ec4-d10fbb6e5546]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:30:05,846: INFO/ForkPoolWorker-2] import_order_update[796b6478-0dde-4a1c-9ec4-d10fbb6e5546]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8647940101001_1_20230626_170024.csv is not a valid file path
+[2023-06-26 17:30:05,910: ERROR/ForkPoolWorker-2] import_order_update[796b6478-0dde-4a1c-9ec4-d10fbb6e5546]: [Exception] An error occured for task 796b6478-0dde-4a1c-9ec4-d10fbb6e5546
+[2023-06-26 17:30:05,910: ERROR/ForkPoolWorker-2] Task import_order_update[796b6478-0dde-4a1c-9ec4-d10fbb6e5546] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8647940101001_1_20230626_170024.csv is not a valid file path')
+[2023-06-26 17:31:05,116: INFO/ForkPoolWorker-16] import_order_update[bd6ad7a0-7c6e-4672-a6ec-8268585fc5d3]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:31:05,117: INFO/ForkPoolWorker-16] import_order_update[bd6ad7a0-7c6e-4672-a6ec-8268585fc5d3]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8649374101001_1_20230626_170023.csv is not a valid file path
+[2023-06-26 17:31:05,119: ERROR/ForkPoolWorker-16] import_order_update[bd6ad7a0-7c6e-4672-a6ec-8268585fc5d3]: [Exception] An error occured for task bd6ad7a0-7c6e-4672-a6ec-8268585fc5d3
+[2023-06-26 17:31:05,119: ERROR/ForkPoolWorker-16] Task import_order_update[bd6ad7a0-7c6e-4672-a6ec-8268585fc5d3] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8649374101001_1_20230626_170023.csv is not a valid file path')
+[2023-06-26 17:32:04,694: INFO/ForkPoolWorker-12] import_order_update[941d4d59-5a6f-4d6c-a9ed-82c7722c82d6]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:32:04,694: INFO/ForkPoolWorker-12] import_order_update[941d4d59-5a6f-4d6c-a9ed-82c7722c82d6]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8649570101001_1_20230626_170029.csv is not a valid file path
+[2023-06-26 17:32:04,695: ERROR/ForkPoolWorker-12] import_order_update[941d4d59-5a6f-4d6c-a9ed-82c7722c82d6]: [Exception] An error occured for task 941d4d59-5a6f-4d6c-a9ed-82c7722c82d6
+[2023-06-26 17:32:04,695: ERROR/ForkPoolWorker-12] Task import_order_update[941d4d59-5a6f-4d6c-a9ed-82c7722c82d6] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8649570101001_1_20230626_170029.csv is not a valid file path')
+[2023-06-26 17:33:07,300: INFO/ForkPoolWorker-16] import_order_update[f3f3364c-1307-487c-98de-2e76d56ed5a9]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:33:07,301: INFO/ForkPoolWorker-16] import_order_update[f3f3364c-1307-487c-98de-2e76d56ed5a9]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8650128101007_1_20230626_170010.csv is not a valid file path
+[2023-06-26 17:33:07,302: ERROR/ForkPoolWorker-16] import_order_update[f3f3364c-1307-487c-98de-2e76d56ed5a9]: [Exception] An error occured for task f3f3364c-1307-487c-98de-2e76d56ed5a9
+[2023-06-26 17:33:07,302: ERROR/ForkPoolWorker-16] Task import_order_update[f3f3364c-1307-487c-98de-2e76d56ed5a9] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8650128101007_1_20230626_170010.csv is not a valid file path')
+[2023-06-26 17:36:13,483: INFO/ForkPoolWorker-17] import_order_update[b4cb71e1-0c26-4eb5-ac47-0640169d828f]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:36:13,483: INFO/ForkPoolWorker-17] import_order_update[b4cb71e1-0c26-4eb5-ac47-0640169d828f]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8650416101001_1_20230626_170027.csv is not a valid file path
+[2023-06-26 17:36:13,484: ERROR/ForkPoolWorker-17] import_order_update[b4cb71e1-0c26-4eb5-ac47-0640169d828f]: [Exception] An error occured for task b4cb71e1-0c26-4eb5-ac47-0640169d828f
+[2023-06-26 17:36:13,484: ERROR/ForkPoolWorker-17] Task import_order_update[b4cb71e1-0c26-4eb5-ac47-0640169d828f] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8650416101001_1_20230626_170027.csv is not a valid file path')
+[2023-06-26 17:37:03,219: INFO/ForkPoolWorker-13] import_order_update[c1107b93-b86a-4042-aa12-d5e92c619faf]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:37:03,220: INFO/ForkPoolWorker-13] import_order_update[c1107b93-b86a-4042-aa12-d5e92c619faf]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8651068101001_1_20230626_170009.csv is not a valid file path
+[2023-06-26 17:37:03,221: ERROR/ForkPoolWorker-13] import_order_update[c1107b93-b86a-4042-aa12-d5e92c619faf]: [Exception] An error occured for task c1107b93-b86a-4042-aa12-d5e92c619faf
+[2023-06-26 17:37:03,221: ERROR/ForkPoolWorker-13] Task import_order_update[c1107b93-b86a-4042-aa12-d5e92c619faf] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8651068101001_1_20230626_170009.csv is not a valid file path')
+[2023-06-26 17:38:02,369: INFO/ForkPoolWorker-15] import_order_update[13b05cc5-4a60-4ee0-8984-286a67174451]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:38:02,369: INFO/ForkPoolWorker-15] import_order_update[13b05cc5-4a60-4ee0-8984-286a67174451]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8651276105001_1_20230626_170013.csv is not a valid file path
+[2023-06-26 17:38:02,370: ERROR/ForkPoolWorker-15] import_order_update[13b05cc5-4a60-4ee0-8984-286a67174451]: [Exception] An error occured for task 13b05cc5-4a60-4ee0-8984-286a67174451
+[2023-06-26 17:38:02,370: ERROR/ForkPoolWorker-15] Task import_order_update[13b05cc5-4a60-4ee0-8984-286a67174451] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8651276105001_1_20230626_170013.csv is not a valid file path')
+[2023-06-26 17:39:04,102: INFO/ForkPoolWorker-15] import_order_update[e6616805-ead7-4656-b98d-4d6d3108f281]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:39:04,102: INFO/ForkPoolWorker-15] import_order_update[e6616805-ead7-4656-b98d-4d6d3108f281]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8651456101003_1_20230626_165958.csv is not a valid file path
+[2023-06-26 17:39:04,103: ERROR/ForkPoolWorker-15] import_order_update[e6616805-ead7-4656-b98d-4d6d3108f281]: [Exception] An error occured for task e6616805-ead7-4656-b98d-4d6d3108f281
+[2023-06-26 17:39:04,103: ERROR/ForkPoolWorker-15] Task import_order_update[e6616805-ead7-4656-b98d-4d6d3108f281] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8651456101003_1_20230626_165958.csv is not a valid file path')
+[2023-06-26 17:40:01,984: INFO/ForkPoolWorker-12] import_order_update[dba57fe9-9af3-4700-84cf-ebc40482b6a8]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:40:01,984: INFO/ForkPoolWorker-12] import_order_update[dba57fe9-9af3-4700-84cf-ebc40482b6a8]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8652039101043_1_20230626_170026.csv is not a valid file path
+[2023-06-26 17:40:01,985: ERROR/ForkPoolWorker-12] import_order_update[dba57fe9-9af3-4700-84cf-ebc40482b6a8]: [Exception] An error occured for task dba57fe9-9af3-4700-84cf-ebc40482b6a8
+[2023-06-26 17:40:01,985: ERROR/ForkPoolWorker-12] Task import_order_update[dba57fe9-9af3-4700-84cf-ebc40482b6a8] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8652039101043_1_20230626_170026.csv is not a valid file path')
+[2023-06-26 17:41:02,372: INFO/ForkPoolWorker-15] import_order_update[eabd5db1-bc09-4afc-b4dd-bb5c7e307a0c]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:41:02,372: INFO/ForkPoolWorker-15] import_order_update[eabd5db1-bc09-4afc-b4dd-bb5c7e307a0c]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8655328101028_1_20230626_170023.csv does not exist
+[2023-06-26 17:41:02,373: ERROR/ForkPoolWorker-15] import_order_update[eabd5db1-bc09-4afc-b4dd-bb5c7e307a0c]: [Exception] An error occured for task eabd5db1-bc09-4afc-b4dd-bb5c7e307a0c
+[2023-06-26 17:41:02,374: ERROR/ForkPoolWorker-15] Task import_order_update[eabd5db1-bc09-4afc-b4dd-bb5c7e307a0c] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8655328101028_1_20230626_170023.csv does not exist')
+[2023-06-26 17:42:02,025: INFO/ForkPoolWorker-16] import_order_update[47a9896b-111c-4251-a21e-e232742a2530]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 17:42:02,025: INFO/ForkPoolWorker-16] import_order_update[47a9896b-111c-4251-a21e-e232742a2530]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8658871101028_1_20230626_165959.csv does not exist
+[2023-06-26 17:42:02,027: ERROR/ForkPoolWorker-16] import_order_update[47a9896b-111c-4251-a21e-e232742a2530]: [Exception] An error occured for task 47a9896b-111c-4251-a21e-e232742a2530
+[2023-06-26 17:42:02,027: ERROR/ForkPoolWorker-16] Task import_order_update[47a9896b-111c-4251-a21e-e232742a2530] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8658871101028_1_20230626_165959.csv does not exist')
+[2023-06-26 17:42:57,723: ERROR/ForkPoolWorker-14] import_order_update[c82e0744-40b4-440c-9a4e-53e62a691818]: [Exception] An error occured for task c82e0744-40b4-440c-9a4e-53e62a691818
+[2023-06-26 17:42:57,724: ERROR/ForkPoolWorker-14] Task import_order_update[c82e0744-40b4-440c-9a4e-53e62a691818] raised unexpected: LockError("Cannot release a lock that's no longer owned",)
+[2023-06-26 19:12:59,538: ERROR/ForkPoolWorker-12] notification[809eb591-eee2-4176-865d-cc26d56a2eb2]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230295_0001
+[2023-06-26 19:30:59,547: ERROR/ForkPoolWorker-11] notification[b57c2fdd-7582-4f88-838a-9fa2a4d4c808]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230040_0001
+[2023-06-26 19:48:59,549: ERROR/ForkPoolWorker-11] notification[522c008c-e553-4265-b3c2-a36e934a550f]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230304_0001
+[2023-06-26 19:49:59,469: ERROR/ForkPoolWorker-11] notification[2e5a961c-201e-41e3-b45d-f48f851ac2e8]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230312_0001
+[2023-06-26 19:57:59,427: ERROR/ForkPoolWorker-12] notification[e4483457-3433-4782-8662-25c38df407eb]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230057_0001
+[2023-06-26 23:40:01,868: INFO/ForkPoolWorker-18] import_order_update[b67b676c-74b3-4af8-94b0-2447909d473c]: ERROR SFTP - Server: ftp.idkids.com
+[2023-06-26 23:40:01,868: INFO/ForkPoolWorker-18] import_order_update[b67b676c-74b3-4af8-94b0-2447909d473c]: ERROR [Errno 2] /to_onestock/statut_cmde_idk_8650747101001_1_20230626_232922.csv does not exist
+[2023-06-26 23:40:01,876: ERROR/ForkPoolWorker-18] import_order_update[b67b676c-74b3-4af8-94b0-2447909d473c]: [Exception] An error occured for task b67b676c-74b3-4af8-94b0-2447909d473c
+[2023-06-26 23:40:01,877: ERROR/ForkPoolWorker-18] Task import_order_update[b67b676c-74b3-4af8-94b0-2447909d473c] raised unexpected: FileNotFoundError(2, '/to_onestock/statut_cmde_idk_8650747101001_1_20230626_232922.csv does not exist')
+[2023-06-26 23:40:48,564: ERROR/ForkPoolWorker-16] import_order_update[c7ff857b-df95-4181-a58c-a0ab4d699260]: [Exception] An error occured for task c7ff857b-df95-4181-a58c-a0ab4d699260
+[2023-06-26 23:40:48,564: ERROR/ForkPoolWorker-16] Task import_order_update[c7ff857b-df95-4181-a58c-a0ab4d699260] raised unexpected: LockError("Cannot release a lock that's no longer owned",)
+[2023-06-27 01:36:21,112: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317143
+[2023-06-27 01:36:21,113: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317144
+[2023-06-27 01:36:21,114: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317145
+[2023-06-27 01:36:21,114: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317146
+[2023-06-27 01:36:21,115: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317147
+[2023-06-27 01:36:21,115: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317148
+[2023-06-27 01:36:21,116: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317149
+[2023-06-27 01:36:21,116: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317150
+[2023-06-27 01:36:21,117: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 1317151
+[2023-06-27 01:46:50,457: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645165
+[2023-06-27 01:46:50,457: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645166
+[2023-06-27 01:46:50,458: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645167
+[2023-06-27 01:46:50,458: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645168
+[2023-06-27 01:46:50,459: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645169
+[2023-06-27 01:46:50,459: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645170
+[2023-06-27 01:46:50,460: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645171
+[2023-06-27 01:46:50,460: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645172
+[2023-06-27 01:46:50,461: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645173
+[2023-06-27 01:46:50,462: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645174
+[2023-06-27 01:46:50,462: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645175
+[2023-06-27 01:46:50,463: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645176
+[2023-06-27 01:46:50,463: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645177
+[2023-06-27 01:46:50,464: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645178
+[2023-06-27 01:46:50,464: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645179
+[2023-06-27 01:46:50,465: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645180
+[2023-06-27 01:46:50,465: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645181
+[2023-06-27 01:46:50,466: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645182
+[2023-06-27 01:46:50,466: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645183
+[2023-06-27 01:46:50,467: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645184
+[2023-06-27 01:46:50,467: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645185
+[2023-06-27 01:46:50,468: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645186
+[2023-06-27 01:46:50,468: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645187
+[2023-06-27 01:46:50,469: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645188
+[2023-06-27 01:46:50,470: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645189
+[2023-06-27 01:46:50,470: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645190
+[2023-06-27 01:46:50,471: ERROR/ForkPoolWorker-14] import_product[3de0da98-73a7-468e-b871-7bab655e1978]: [Exception] Error at line 2645191
+[2023-06-27 01:51:59,262: ERROR/ForkPoolWorker-11] notification[38f7d423-f01d-4208-b168-c4d36f481d75]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230556_0001
+[2023-06-27 01:56:59,262: ERROR/ForkPoolWorker-13] notification[8ce6361c-039a-405b-8b29-10d8d87a1244]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230484_0001
+[2023-06-27 01:56:59,262: ERROR/ForkPoolWorker-12] notification[a38eb9f1-f8b0-4bcd-824e-1789ef040c57]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230566_0001
+[2023-06-27 01:56:59,269: ERROR/ForkPoolWorker-11] notification[f400f424-a910-4db2-8792-02c7ec7e5d5c]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230562_0001
+[2023-06-27 02:29:59,393: ERROR/ForkPoolWorker-11] notification[de6f617e-44fb-4fdf-bbf3-a1a12e3e6b5c]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230567_0001
+[2023-06-27 04:31:00,288: ERROR/ForkPoolWorker-16] notification[979a0cf5-86e3-415c-bdde-717631dbd1e3]: [Exception] Could not send Eresa SMS eresa_reminder_sms for eresa00230627_0001
