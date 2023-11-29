@@ -1,0 +1,8 @@
+# Ignorer les fichiers commençant par "worker"
+worker*
+
+# Ignorer les fichiers commençant par "output_data"
+output_data*
+
+# Ignorer les fichiers commençant par "filtered_log"
+filtered_log*
