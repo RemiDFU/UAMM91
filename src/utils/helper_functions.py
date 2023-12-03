@@ -1,15 +1,18 @@
 import pandas as pd
 
-def save_to_csv(dataframe, output_filename):
-    """
-    Sauvegarde un DataFrame pandas dans un fichier CSV.
-
-    Args:
-        dataframe (pd.DataFrame): Le DataFrame à sauvegarder.
-        output_filename (str): Le nom du fichier CSV de sortie.
-    """
+def open_csv_file(file_path):
     try:
-        dataframe.to_csv(output_filename, index=False)
-        print(f"Les données ont été sauvegardées dans {output_filename}")
+        # Utilisez pandas pour lire le fichier CSV
+        data = pd.read_csv(file_path)
+        return data
     except Exception as e:
-        print(f"Une erreur s'est produite lors de la sauvegarde du fichier CSV : {str(e)}")
+        print(f"Une erreur s'est produite lors de l'ouverture du fichier CSV : {str(e)}")
+        return None
+
+# Exemple d'utilisation
+file_path = '/data/datasets/votre_fichier.csv'
+data = open_csv_file(file_path)
+
+if data is not None:
+    # Maintenant, vous pouvez travailler avec les données dans 'data'
+    print(data.head())  # Affiche les premières lignes du DataFrame
