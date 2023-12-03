@@ -8,7 +8,7 @@ from sklearn import tree
 import matplotlib.pyplot as plt
 
 # Chargement des données dans un DataFrame
-data = pd.read_csv("../../data/datasets/output_data_2023-11-29_19-05-17.csv", delimiter=",")
+data = pd.read_csv("../../data/datasets/output_data_2023-12-03_16-53-42.csv", delimiter=",")
 
 
 print(data.head())

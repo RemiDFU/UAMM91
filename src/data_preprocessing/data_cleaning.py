@@ -6,10 +6,15 @@ import time
 
 start_time = time.time()
 
-logs = []
 
+"""
+logs = []
 with open("../../data/rawData/worker-c382_21_11_2023.log", "r", encoding="utf-8") as file:
-    logs = file.readlines()[1070000:1100000]
+    logs = file.readlines()[200000:300000]
+"""
+
+
+
 
 def process_logs(logs):
     start_time = time.time()
@@ -19,22 +24,34 @@ def process_logs(logs):
 
     for log in logs:
         line_count += 1
-
         heure = log[1:24]
+        tache = ""
+        if re.match(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}", heure):
+            niveau_matches = re.findall(r": (.*?)/", log)
+            if len(niveau_matches) > 1:
+                niveau_matches = niveau_matches[0]
+            niveau_matches = re.search(r"(INFO|ERROR|WARNING)", log)
+            niveau = niveau_matches.group(1) if niveau_matches else "N/A"
+            tache_matches = re.search(r"Task (\S+)(?=\[)|(\S+)(?=\[)", log)
+            if tache_matches:
+                tache = tache_matches.group(1) if tache_matches.group(1) else tache_matches.group(2)
+            else:
+                print("tache TO BE N/A: ", tache)
+                tache = "System"
+            """
+            tache_matches = re.findall(r"((\S+)(?=\[)|\s)", log)
+            if tache_matches[0][0]:
+                tache = tache_matches[0][0] if tache_matches else "N/A"
+            else:
+                tache = tache_matches[0] if tache_matches else "N/A"
 
-        niveau_matches = re.findall(r": (.*?)/", log)
-        if len(niveau_matches) > 1:
-            niveau_matches = niveau_matches[0]
-        niveau_match = re.search(r"(INFO|ERROR|WARNING)", log)
-        niveau = niveau_match.group(1) if niveau_match else "N/A"
+            tache = tache.replace("Received task:", "")
+            tache = tache.replace("Task", "")
+            tache = tache.replace(" ", "")
+            """
 
-        tache_matches = re.findall(r"\](.*?)\[", log)
-        tache = tache_matches[0] if tache_matches else "N/A"
-        tache = tache.replace("Received task:", "")
-        tache = tache.replace("Task", "")
-        tache = tache.replace(" ", "")
 
-        df = df.append({'heure': heure, 'niveau': niveau, 'tache': tache}, ignore_index=True)
+            df = df.append({'heure': heure, 'niveau': niveau, 'tache': tache}, ignore_index=True)
 
     unique_niveaux = df['niveau'].unique()
     print("Différents types de niveau:", unique_niveaux)
@@ -73,5 +90,3 @@ def process_logs(logs):
 
     print(f"Ligne(s) {line_count} traitée(s)")
     print("Temps total d'exécution :", minutes, "minute(s) et ", round(secondes), "secondes")
-
-process_logs(logs)
