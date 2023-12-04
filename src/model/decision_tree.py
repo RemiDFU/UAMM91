@@ -23,7 +23,7 @@ X = data.drop(["heure", "tache"], axis=1)  # Exclure les colonnes "heure" et "ta
 y = data["tache"]  # Utiliser uniquement la colonne "tache" comme étiquette
 
 # Convertir les valeurs de la colonne "niveau" en valeurs numériques
-niveau_mapping = {"ERROR": 1}  # Remplacez "ERROR" par une valeur numérique appropriée si nécessaire
+niveau_mapping = {"INFO": 0, "WARNING": 1, "ERROR": 2}  # Remplacez "ERROR" par une valeur numérique appropriée si nécessaire
 X["niveau"] = X["niveau"].map(niveau_mapping)
 
 # Encodage one-hot des variables catégorielles
