@@ -9,8 +9,8 @@ start_time = time.time()
 
 """
 logs = []
-with open("../../data/rawData/worker-c382_21_11_2023.log", "r", encoding="utf-8") as file:
-    logs = file.readlines()[200000:300000]
+with open("../../data/rawData/worker-c660-20_11_2023.log", "r", encoding="utf-8") as file:
+    logs = file.readlines()[:150000]
 """
 
 
@@ -24,7 +24,11 @@ def process_logs(logs):
 
     for log in logs:
         line_count += 1
+        max_line_length = 1000
+        if len(log) > max_line_length:
+            log = log[:max_line_length]
         heure = log[1:24]
+        print(line_count)
         tache = ""
         if re.match(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}", heure):
             niveau_matches = re.findall(r": (.*?)/", log)
@@ -36,7 +40,6 @@ def process_logs(logs):
             if tache_matches:
                 tache = tache_matches.group(1) if tache_matches.group(1) else tache_matches.group(2)
             else:
-                print("tache TO BE N/A: ", tache)
                 tache = "System"
             """
             tache_matches = re.findall(r"((\S+)(?=\[)|\s)", log)
@@ -90,3 +93,5 @@ def process_logs(logs):
 
     print(f"Ligne(s) {line_count} traitée(s)")
     print("Temps total d'exécution :", minutes, "minute(s) et ", round(secondes), "secondes")
+
+#process_logs(logs=logs)

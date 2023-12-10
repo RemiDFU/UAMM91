@@ -1,5 +1,5 @@
 from src.utils.helper_functions import open_csv_file
-from scripts.data_exploration import plot_info_frequency, plot_task_distribution, plot_temporal_activity
+from scripts.data_exploration import plot_info_frequency, plot_task_distribution, plot_temporal_activity, display_log_statistics
 from src.data_preprocessing.data_cleaning import process_logs
 
 def preprocess_data(data):
@@ -10,8 +10,8 @@ def preprocess_data(data):
     """
     logs = []
 
-    with open("data/rawData/worker-c382_21_11_2023.log", "r", encoding="utf-8") as file:
-        logs = file.readlines()[:1000]
+    with open("data/rawData/worker-c840_21_11_2023.log", "r", encoding="utf-8") as file:
+        logs = file.readlines()[:3]
     process_logs(logs)
 
 
@@ -27,6 +27,8 @@ def explore_data(data):
     plot_task_distribution(data)
 
     plot_temporal_activity(data)
+
+    display_log_statistics(data)
 
 
 def build_model(data):
@@ -46,7 +48,7 @@ def visualize_results(data):
 
 def main():
     # preprocessed_data = preprocess_data(data)
-    file_path = 'data/datasets/output_data_2023-12-03_16-53-42.csv'
+    file_path = 'data/datasets/output_data_2023-12-10_17-06-11.csv'
     data = load_data(file_path)
     print(data.head())
     if data is not None:

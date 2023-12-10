@@ -45,4 +45,4 @@ def forecast_log_levels(csv_path, column_name, arima_order, forecast_steps):
     plt.show()
 
 # RUN func
-forecast_log_levels("../../data/datasets/output_data_2023-12-03_16-53-42.csv", "WARNING", (10, 5, 10), 2)
+forecast_log_levels("../../data/datasets/output_data_2023-12-10_17-06-11.csv", "ERROR", (10, 5, 10), 2)

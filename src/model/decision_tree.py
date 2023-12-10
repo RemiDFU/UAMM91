@@ -3,13 +3,12 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import OneHotEncoder
-
 from sklearn import tree
 import matplotlib.pyplot as plt
+from model_evaluation import calculate_accuracy, calculate_recall, calculate_precision, calculate_f1_score, get_confusion_matrix
 
 # Chargement des données dans un DataFrame
-data = pd.read_csv("../../data/datasets/output_data_2023-12-03_16-53-42.csv", delimiter=",")
-
+data = pd.read_csv("../../data/datasets/output_data_2023-12-10_17-06-11.csv", delimiter=",")
 
 print(data.head())
 print(data.shape)
@@ -23,17 +22,18 @@ X = data.drop(["heure", "tache"], axis=1)  # Exclure les colonnes "heure" et "ta
 y = data["tache"]  # Utiliser uniquement la colonne "tache" comme étiquette
 
 # Convertir les valeurs de la colonne "niveau" en valeurs numériques
-niveau_mapping = {"INFO": 0, "WARNING": 1, "ERROR": 2}  # Remplacez "ERROR" par une valeur numérique appropriée si nécessaire
+niveau_mapping = {"INFO": 0, "WARNING": 1, "ERROR": 2}
 X["niveau"] = X["niveau"].map(niveau_mapping)
 
 # Encodage one-hot des variables catégorielles
 encoder = OneHotEncoder()
-X_encoded = encoder.fit_transform(X)
+X_encoded = encoder.fit_transform(X).toarray()
+feature_names = encoder.get_feature_names_out(input_features=X.columns)
 
 # Division des données en ensembles d'entraînement et de test
 X_train, X_test, y_train, y_test = train_test_split(X_encoded, y, test_size=0.2, random_state=42)
 
-# Création du modèle d'arbre de décision avec 'niveau' comme premier nœud racine
+# Création du modèle d'arbre de décision
 model = DecisionTreeClassifier(max_depth=3, criterion='gini', random_state=42)
 
 # Entraînement du modèle
@@ -53,42 +53,22 @@ class_counts = data["tache"].value_counts()
 print("Nombre de classes :", len(class_counts))
 print(class_counts)
 
-# Visualiser l'arbre de décision avec 'niveau' comme nœud racine et 'tache' comme second nœud
-# Noms des caractéristiques (features) et des classes
-feature_names = X.columns.tolist()
-class_names = y.unique().tolist()
-
-n_nodes = model.tree_.node_count
-children_left = model.tree_.children_left
-children_right = model.tree_.children_right
-feature = model.tree_.feature
-threshold = model.tree_.threshold
-
-print("Nombre de noeuds:", n_nodes)
-print("children_left:", children_left)
-print("children_right:", children_right)
-print("feature:", feature)
-print("threshold", threshold)
-
-print("classes:", class_names)
-
-# Visualisation de l'arbre de décision
+# Visualiser l'arbre de décision
 plt.figure(figsize=(20, 12))
-tree.plot_tree(model, feature_names=feature_names, class_names=None, filled=True)
+tree.plot_tree(model, feature_names=feature_names, filled=True)
 plt.show()
 
-# Obtenir les valeurs des feuilles de l'arbre de décision
-leaf_values = model.tree_.value  # Les valeurs de chaque feuille
 
-# Obtenir le nombre de classes à partir de la forme des valeurs des feuilles
-num_classes = leaf_values.shape[2]
+# Calcul des métriques d'évaluation
+accuracy = calculate_accuracy(y_test, y_pred)
+recall = calculate_recall(y_test, y_pred)
+precision = calculate_precision(y_test, y_pred)
+f1 = calculate_f1_score(y_test, y_pred)
+conf_matrix = get_confusion_matrix(y_test, y_pred)
 
-# Créer un DataFrame pour afficher les valeurs des feuilles
-leaf_df = pd.DataFrame(columns=range(num_classes), data=leaf_values.reshape(-1, num_classes))
-
-# Ajouter une colonne pour le nombre total d'échantillons dans chaque feuille
-leaf_df['Total Samples'] = leaf_df.sum(axis=1)
-
-# Afficher le DataFrame avec les valeurs des feuilles
-print("\nFeuilles de l'arbre de décision avec les valeurs de chaque classe :\n")
-print(leaf_df)
+# Affichage des résultats
+print("Accuracy on Test Set:", accuracy)
+print("Recall on Test Set:", recall)
+print("Precision on Test Set:", precision)
+print("F1 Score on Test Set:", f1)
+print("Confusion Matrix on Test Set:\n", conf_matrix)
