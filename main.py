@@ -4,10 +4,6 @@ from src.data_preprocessing.data_cleaning import process_logs
 
 def preprocess_data(data):
 
-    """
-    Effectuez le prétraitement des données ici
-    Nettoyez, encodez, normalisez, etc.
-    """
     logs = []
 
     with open("data/rawData/worker-c840_21_11_2023.log", "r", encoding="utf-8") as file:
